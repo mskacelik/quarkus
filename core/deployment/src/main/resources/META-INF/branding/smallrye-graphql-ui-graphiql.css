@@ -1,51 +1,23 @@
 body {
-    height: 100%;
-    margin: 0 !important;
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;    
+    margin: 0;
+}
+
+.graphiql-container, .CodeMirror-info, .CodeMirror-lint-tooltip, reach-portal {
+    --color-primary: 211, 80%, 60% !important;
 }
 
 #graphiql {
     height: 100vh;
 }
 
-#graphiql .topBar{
-    background:#343a40;
-}
 
-#graphiql .execute-button {
-    box-shadow:unset;
-    background: #4695eb;
-}
-
-#graphiql .toolbar-button {
+#button.graphiql-toolbar-button {
     padding-top: 12px !important;
     box-shadow:unset;
     background: transparent;
     color: #9a9da0;
 }
-
-#graphiql .docExplorerShow {
-    background: #4695eb;
-    color: white;
-}
-
-#graphiql .docExplorerWrap {
-    color: black;
-}
-#graphiql .docExplorerHide{
-    color: black;
-}
-
-#graphiql .topBar {
-    padding-bottom: 12px !important;
-    padding-top: 12px !important;   
-}
-
-#graphQLUiTitleLink::after {
-  content: "GraphQL UI";
-}
+/*
 
 #graphQLUiTitleLink {
     display: flex;
@@ -66,3 +38,4 @@ body {
 .graphiql-container .title {
     display: flex;
 }
+*/
